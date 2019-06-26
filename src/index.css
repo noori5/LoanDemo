@@ -1,13 +1,72 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+body{
+  background: #37474F; 
+  background-size: cover;
+  font-family: "work sans"
+}
+html{
+  font-size: 100%;
+}
+
+
+#calcform{
+  max-width: 500px;
+  min-width: 458px;
+  max-height: 700px;
+  min-height: 560px;
+  width: 30%;
+  height: 60%;
+  margin: 100px auto;
+  background-color:#fff;
+  border-radius: 25px;
+}
+#headerTitle{
+  text-align: center;
+  font-family: 'cursive';
+  padding: 2rem 0;
+  margin: 0;
+  font-size: 2rem;
+}
+
+.row{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+  max-width: 100%;
+  
+}
+.row label{
+  align-self: start;
+  padding-left: 2.5rem;
+  padding-bottom: 0.5rem;
+  color: rgb(7, 7, 7);
+  font-family: 'Courier New', Courier, monospace
+}
+.inputSlider{
+  align-self: start;
+  padding-left: 2.5rem;
+  padding-bottom: 0.5rem;
+  color: rgb(7, 7, 7);
+  min-width: 97%;
+  max-width: 97%;
+  min-height: 85px;
+}
+
+.sliderErr{
+  font-weight: 600;
+  margin-top: 10px;
+  font-style: italic;
+  min-width: 415px;
+  text-align: center;
+}
+
+.out{
+  text-align: center;
+    font-size: 1.6rem;
+    font-style: italic;
+    font-family: sans-serif;
 }
